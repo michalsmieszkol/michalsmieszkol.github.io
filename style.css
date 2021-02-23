@@ -1,88 +1,51 @@
-* 
-{
+* {
     margin: 0;
-    padding: 0;
-    font-family: 'Roboto', sans-serif;
-    box-sizing: border-box;
+    padding: 0;   
 }
 
-#wrapper {
-    max-width: 966px;
-    margin: 0 auto 0 auto;
-    background-color: white;
-}
 
-body {
-    background-color: antiquewhite
-}
-
-header img {
-    width: 100%;
+header {
+    background: url(background.jpg) center;
+    height: 100vh;
+    width: 100vw;
+    background-size: cover;
     display: block;
 }
 
-nav {
-    background-color: #92B9B6;
-}
-
-nav a {
-    display: inline-block;
-    width: 25%;
-    padding: 15px 30px 15px 30px;
-    color: rgb(240, 248, 255);
-    text-decoration: none;
+h1, h2{
+    font-family: monospace;
     text-align: center;
-    -webkit-transition: all 1s ease;
-    transition: all 1s ease;
-    
-}
-    
-a.menu:hover {background-color: #D7D0C0;
-}
-     
-.active {background-color: #D7D0C0;
-}
-
-article {
-    margin-top: 30px;
-    margin-bottom: 20px;
-    padding: 0 20px 0 0;
+    color: #ddd;
 }
 h1 {
-    font-size: 30px;
-    text-align: center;
-    margin: 0 10% 20px 10%;
-    padding-bottom: 15px;
-    border-bottom: 2px solid crimson
-}
-img.left {
-    float: left;
-    padding: 0px 20px 20px 10px;
-    width: 30%;
-    border-radius: 20%;
-}
-article p {
-    text-align: justify;
-    line-height: 35px;
-    font-size: 18px;
-    padding: 15px 105px 0 10;
-}
-iframe {
-    width: 100%;
-}
-footer {
-    height: 40px;
-    text-align: center;
-    line-height: 40px;
+    font-size: 40px;
+    margin-bottom: 5px;
+    padding-top: 150;
+    font-family: 'Montserrat Alternates', sans-serif;
+
 }
 
-@media (max-width:800px){
-    nav a {
-        width: 50%;
-        font-size: 20px;
-    }
-    h1 {
-        font-size: 26px;
-    }
+h2 {
+    font-size: 18px;
+    font-family: 
+}
+
+button {
+    position: absolute; 
+    top: 50%; 
+    left: 50%;
+    width: 260px;
+    height: 70px;
+    padding: 20px;
+    background-color: rgba(139, 69, 19, 0.54);
+    border: 1px solid rgba(139, 69, 19, 0.21);
+    color: white;
+    font-size: 25px;
+    margin-top: -35px;
+    margin-left: -130px;
+    -webkit-transition: all 1s ease;
     
 }
+
+button.menu:hover {background-color: rgba(247, 134, 53, 0.67);
+    
