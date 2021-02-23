@@ -9,30 +9,38 @@ header {
     height: 100vh;
     width: 100vw;
     background-size: cover;
-    display: block;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    
+    
 }
 
 h1, h2{
     font-family: monospace;
     text-align: center;
     color: #ddd;
+    
+    
 }
 h1 {
     font-size: 40px;
     margin-bottom: 5px;
     padding-top: 150;
     font-family: 'Montserrat Alternates', sans-serif;
+    letter-spacing: 20px;
 
 }
 
 h2 {
     font-size: 18px;
-    font-family: 
+
 }
 
 button {
     position: absolute; 
-    top: 50%; 
+    bottom: 50%; 
     left: 50%;
     width: 260px;
     height: 70px;
@@ -45,7 +53,9 @@ button {
     margin-left: -130px;
     -webkit-transition: all 1s ease;
     font-family: 'Montserrat';
+    box-sizing: border-box;
 }
 
 button.menu:hover {background-color: rgba(247, 134, 53, 0.67);
+    cursor: pointer;
     
