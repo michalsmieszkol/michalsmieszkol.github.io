@@ -58,4 +58,21 @@ button {
 
 button.menu:hover {background-color: rgba(247, 134, 53, 0.67);
     cursor: pointer;
-    
+}
+
+a {
+    position: relative;
+    top: 800%;
+    background-color: rgba(48, 121, 124, 0.23);
+    font-family: 'Montserrat Alternates';
+    font-size: 16;
+    text-decoration: none;      
+    color: white;
+    padding: 5px;
+    box-sizing: border-box;
+    -webkit-transition: all 1s ease;
+    padding: 10;
+}
+    .przycisk:hover {background-color: rgba(5, 141, 147, 0.4);
+    cursor: pointer;
+     
