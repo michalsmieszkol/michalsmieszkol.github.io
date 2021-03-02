@@ -9,10 +9,20 @@ header {
     height: 100vh;
     width: 100vw;
     background-size: cover;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
     align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
     justify-content: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
     flex-direction: column;
+    z-index: 1;
     
     
 }
@@ -38,7 +48,7 @@ h2 {
 
 }
 
-button {
+button.menu {
     width: 260px;
     height: 70px;
     background-color: rgba(139, 69, 19, 0.54);
@@ -47,13 +57,30 @@ button {
     font-size: 25px;
     -webkit-transition: all 1s ease;
     font-family: 'Montserrat';
+    -webkit-box-sizing: border-box;
     box-sizing: border-box;
+}
+button.neon {
+    
+    width: 100px;
+    height: 30px;
+    background-color: rgba(255, 255, 0, 0.32);
+    border: 1px solid rgba(139, 69, 19, 0.21);
+    color: white;
+    font-size: 25px;
+    -webkit-transition: all 1s ease;
+    font-family: 'Montserrat';
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    margin-top:
 }
 
 button.menu:hover {background-color: rgba(247, 134, 53, 0.67);
     cursor: pointer;
 }
-
+button.neon:hover {background-color: rgba(255, 245, 0, 0.83);
+    cursor: pointer;
+}
 a {
     font-family: 'Montserrat Alternates';
     font-size: 16;
@@ -61,4 +88,16 @@ a {
     color: white;
     -webkit-transition: all 1s ease;
     padding: 30;
+}
+
+div img {
+    position: absolute;
+    top: 90%;
+    right: 2%;
+    height: 50px;
+    width: 50px;
+    
+}
+h3 {
+    background: url(mail.png) center;
 }
